@@ -34,6 +34,7 @@ export default function Home() {
 			const response = await fetch('http://95.70.136.206:3000/api/upload', {
 				method: 'POST',
 				body: formData,
+				referrerPolicy: 'unsafe-url',
 			});
 
 			const data = await response.json();
