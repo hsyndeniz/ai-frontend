@@ -31,7 +31,7 @@ export default function Home() {
 			const formData = new FormData();
 			formData.append('file', file);
 
-			const response = await fetch('http://192.168.1.26:3000/api/upload', {
+			const response = await fetch('http://95.70.136.206:3000/api/upload', {
 				method: 'POST',
 				body: formData,
 			});
