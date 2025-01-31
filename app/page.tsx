@@ -31,7 +31,7 @@ export default function Home() {
 			const formData = new FormData();
 			formData.append('file', file);
 
-			const response = await fetch('https://966d-2a02-ff0-3314-fcbd-f40e-ec31-58cd-3f72.ngrok-free.app/api/upload', {
+			const response = await fetch('https://close-one-whippet.ngrok-free.app/api/upload', {
 				method: 'POST',
 				body: formData,
 				referrerPolicy: 'unsafe-url',
